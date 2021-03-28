@@ -1,0 +1,120 @@
+body{
+    font-family: Inter;
+}
+
+section{
+    width: 80%;
+}
+
+#main-content{
+    display: flex;
+}
+
+#cross-descr{
+    display: flex;
+    height: 1000px;
+}
+
+.cross-descr-main-info{
+    display: flex;
+}
+
+.cross-descr-info{
+    display: flex;
+}
+
+.cross-descr-cart-btn{
+    font-size: 16px;
+    border: 3px solid black;
+    width: 30%;
+    height: 20%;
+}
+
+.cross-descr-parameters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.cross-descr-param-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.would-like-crosses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.would-like-crosses-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.would-like-cross-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.would-like-cross-card-img{
+    width: 200px;
+    height: 172px;
+}
+
+.would-like-cross-card-name{
+    font-weight: bold;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    #main-content{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+    #cross-descr{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cross-descr-main-info{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .cross-descr-info{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 250px;
+        width: 40%;
+    }
+
+    .cross-descr-text{
+        text-align: right;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
