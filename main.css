@@ -4,10 +4,6 @@ body{
     margin: 0;
 }
 
-section{
-    width: 80%;
-}
-
 aside{
     width: 10%;
     height: 900px;
@@ -18,6 +14,10 @@ main{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+button{
+    cursor: pointer;
 }
 
 footer{
@@ -56,7 +56,6 @@ footer{
     color: black;
     border: 3px solid black;
     height: 30px;
-    cursor: pointer;
     width: 100%;
     height: 50px;
     font-size: 16px;
@@ -64,12 +63,23 @@ footer{
 
 #main-content{
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.main-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-by-name{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    width: 100%;
 }
 
 .search-by-name-form{
@@ -119,28 +129,4 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
- 
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {
-    #main-content{
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-    }
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
- 
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    
 }
