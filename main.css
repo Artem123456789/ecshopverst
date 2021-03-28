@@ -8,6 +8,10 @@ section{
     width: 80%;
 }
 
+main{
+    margin-top: 50px;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -21,6 +25,30 @@ footer{
 
 #main-content{
     display: flex;
+}
+
+.search-by-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.search-by-name-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 24%;
+}
+
+.search-by-name-input{
+    height: 35px;
+    border: gray 1px solid;
+}
+
+.search-by-name-btn{
+    height: 100%;
+    border: gray 1px solid;
+    width: 30%;
 }
 
 .footer-contacts{

@@ -3,13 +3,53 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: black;
     width: 100%;
-    height: 150px;
+    height: 100px;
     color: white;
+    background: black;
 }
 
 .site-name-nav{
     font-size: 24px;
     text-transform: uppercase;
+}
+
+.nav-separator{
+    width: 800px;
+}
+
+.left-nav-side-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.left-nav-side-img{
+    width: 35px;
+    height: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    #main-content{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
 }
