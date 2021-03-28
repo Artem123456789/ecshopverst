@@ -8,7 +8,15 @@ section{
     width: 80%;
 }
 
+aside{
+    width: 10%;
+    height: 900px;
+}
+
 main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -21,6 +29,37 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 350px;
+}
+
+.search-by-param-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.params-group{
+    width: 100%;
+}
+
+.param-group-block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-by-param-btn{
+    background: white;
+    color: black;
+    border: 3px solid black;
+    height: 30px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
 }
 
 #main-content{
@@ -37,7 +76,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 24%;
+    width: 27%;
 }
 
 .search-by-name-input{
