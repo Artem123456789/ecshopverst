@@ -4,104 +4,10 @@ body{
     margin: 0;
 }
 
-aside{
-    width: 10%;
-    height: 900px;
-}
-
 main{
     margin-top: 50px;
 }
 
 button{
     cursor: pointer;
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    width: 100%;
-    height: 200px;
-    margin-top: 350px;
-}
-
-.params-group{
-    width: 100%;
-}
-
-.param-group-block{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.search-by-param-btn{
-    background: white;
-    color: black;
-    border: 3px solid black;
-    height: 30px;
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
-}
-
-.search-by-name{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.search-by-name-form{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 27%;
-}
-
-.search-by-name-input{
-    height: 35px;
-    border: gray 1px solid;
-}
-
-.search-by-name-btn{
-    height: 100%;
-    border: gray 1px solid;
-    width: 30%;
-}
-
-.footer-contacts{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 200px;
-    width: 400px;
-    color: gray;
-}
-
-.footer-site-name{
-    text-transform: uppercase;
-}
-
-.footer-contact-param::after{
-    content: ":";
-}
-
-.footer-contacts-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.footer-contact-item{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
