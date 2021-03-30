@@ -68,6 +68,7 @@ main{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -102,4 +103,9 @@ main{
 
 .discount-value::after{
     content: "%";
+}
+
+.show-all-crosses-link{
+    align-self: flex-end;
+    margin-top: 50px;
 }
