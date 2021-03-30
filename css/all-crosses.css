@@ -1,0 +1,28 @@
+.all-crosses{
+    display: flex;
+    flex-direction: column;
+    justify-self: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.all-crosses-list{
+    display: flex;
+    flex-direction: row;
+    justify-self: space-between;
+    align-items: center;
+}
+
+.all-crosses-card{
+    display: flex;
+    flex-direction: column;
+    justify-self: space-between;
+    align-items: flex-start;
+    height: 450px;
+    width: 250px;
+}
+
+.all-crosses-card-img{
+    width: 200px;
+    height: 172px;
+}
