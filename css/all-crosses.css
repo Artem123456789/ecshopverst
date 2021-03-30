@@ -9,17 +9,21 @@
 .all-crosses-list{
     display: flex;
     flex-direction: row;
-    justify-self: space-between;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .all-crosses-card{
     display: flex;
     flex-direction: column;
-    justify-self: space-between;
+    justify-content: space-between;
     align-items: flex-start;
     height: 450px;
-    width: 250px;
+    width: 300px;
+    padding: 50px;
+    margin-top: 15px;
+    border: 1px solid black;
 }
 
 .all-crosses-card-img{
