@@ -46,7 +46,10 @@ main{
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
-    /* height: 150px; */
+}
+
+.search-param-group{
+    width: 100px;
 }
 
 .search-param-groups
@@ -61,4 +64,20 @@ main{
     margin-top: 25px;
     height: 30px;
     width: 100px
+}
+
+.search-param-group-box{
+    margin: 0;
+}
+
+.search-param-group-params-list{
+    margin-top: 10px;
+}
+
+.search-param-group-param{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }

@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="css/detail.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/detail.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
@@ -26,170 +27,158 @@
         </nav>
     </header>
     <main>
-        <aside>
-            <form class="search-by-param-form">
-                <div class="params-group">
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Женщина</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Мужчина</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Ребенок</p>
-                    </div>
-				</div>
-                <div class="params-group">
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Adidas</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Nike</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Ребенок</p>
-                    </div>
-				</div>
-                <div class="params-group">
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Adidas</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Nike</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Ребенок</p>
-                    </div>
-				</div>
-                <div class="params-group">
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Adidas</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Nike</p>
-                    </div>
-                    <div class="param-group-block">
-                        <input
-						class="param-checkbox"
-						type="checkbox"
-						value=""/>
-                        <p>Ребенок</p>
-                    </div>
-				</div>
-                <input class="search-by-param-btn" type="submit" value="Применить">
+        <section class="search-name">
+            <form action="get" class="search-name-form">
+                <input class="search-name-input" type="text" name="" id="">
+                <button class="search-name-btn">Найти</button>
             </form>
-        </aside>
-        <div class="main-content-container">
-            <div id="main-content">
-                <section class="search-by-name">
-                    <form class="search-by-name-form" action="">
-                        <input class="search-by-name-input" type="text">
-                        <input class="search-by-name-btn" type="submit" value="найти">
-                    </form>
-                </section>
-                <section id="cross-descr">
-                    <div class="cross-descr-main-info">
-                        <img src="img/index.jpg" alt="" class="cross-descr">
-                        <div class="cross-descr-info">
-                            <h1 class="cross-descr-name">Yeezy 1000</h1>
-                            <p class="cross-descr-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero facere optio ullam doloribus ex nulla beatae? Doloremque odit magni fugit asperiores magnam similique fuga in, eos, dolor mollitia vitae iure!</p>
-                            <button class="cross-descr-cart-btn">В корзину</button>
-                        </div>
-                    </div>
-                    <div class="cross-descr-parameters">
-                        <div class="cross-descr-param-row">
-                            <div class="cross-descr-param-name">Цена</div>
-                            <div class="cross-descr-param-value">$500</div>
-                        </div>
-                        <div class="cross-descr-param-row">
-                            <div class="cross-descr-param-name">Бренд</div>
-                            <div class="cross-descr-param-value">Nike</div>
-                        </div>
-                        <div class="cross-descr-param-row">
-                            <div class="cross-descr-param-name">Размер</div>
-                            <div class="cross-descr-param-value">45</div>
-                        </div>
-                        <div class="cross-descr-param-row">
-                            <div class="cross-descr-param-name">Гендерный признак</div>
-                            <div class="cross-descr-param-value">Женский</div>
-                        </div>
-                        <div class="cross-descr-param-row">
-                            <div class="cross-descr-param-name">Цвет</div>
-                            <div class="cross-descr-param-value">Белый</div>
-                        </div>
-                        <div class="cross-descr-param-row">
-                            <div class="cross-descr-param-name">Сезон</div>
-                            <div class="cross-descr-param-value">Лето</div>
-                        </div>
-                        <div class="cross-descr-param-row">
-                            <div class="cross-descr-param-name">Вид</div>
-                            <div class="cross-descr-param-value">Обычные</div>
-                        </div>
-                    </div>
-                    <div class="would-like-crosses">
-                        <h2 class="would-like-crosses-text">Вам может понравится</h2>
-                        <div class="would-like-crosses-list">
-                            <div class="would-like-cross-card">
-                                <img src="img/index.jpg" alt="cross" class="would-like-cross-card-img">
-                                <p class="would-like-cross-card-name">Air max 97</p>
+        </section>
+        <section class="search-param">
+            <form action="" class="search-param-form">
+                <div class="search-param-groups">
+                    <div class="search-param-group">
+                        <span class="search-param-group-name">Пол</span>
+                        <div class="search-param-group-params-list">
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
                             </div>
-                            <div class="would-like-cross-card">
-                                <img src="img/index.jpg" alt="cross" class="would-like-cross-card-img">
-                                <p class="would-like-cross-card-name">Air max 97</p>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
                             </div>
-                            <div class="would-like-cross-card">
-                                <img src="img/index.jpg" alt="cross" class="would-like-cross-card-img">
-                                <p class="would-like-cross-card-name">Air max 97</p>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
-        </div>
+                    <div class="search-param-group">
+                        <span class="search-param-group-name">Пол</span>
+                        <div class="search-param-group-params-list">
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-param-group">
+                        <span class="search-param-group-name">Пол</span>
+                        <div class="search-param-group-params-list">
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-param-group">
+                        <span class="search-param-group-name">Пол</span>
+                        <div class="search-param-group-params-list">
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-param-group">
+                        <span class="search-param-group-name">Пол</span>
+                        <div class="search-param-group-params-list">
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-param-group">
+                        <span class="search-param-group-name">Пол</span>
+                        <div class="search-param-group-params-list">
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                            <div class="search-param-group-param">
+                                <input type="checkbox" name="" id="" class="search-param-group-box">
+                                <span class="search-param-group-text">Женщина</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="search-param-btn">Применить</button>
+            </form>
+        </section>
+        <section class="cross-detail">
+            <article class="cross-detail-main-info">
+                <img src="img/index.jpg" alt="" class="cross-detail-img">
+                <div class="cross-detail-main-info-text">
+                    <h1 class="cross-detail-name">Yeezy 100</h1>
+                    <span class="cross-detail-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptate nemo consectetur aspernatur dolorem accusantium ullam molestiae facilis! Distinctio maxime quaerat reiciendis harum consectetur repellat voluptatum quos excepturi obcaecati molestias.</span>
+                </div>
+            </article>
+            <aricle class="cross-detail-params">
+                <div class="cross-detail-param"><span class="cross-detail-name">Бренд</span><span class="cross-detail-value">Adidas</span></div>
+                <div class="cross-detail-param"><span class="cross-detail-name">Бренд</span><span class="cross-detail-value">Adidas</span></div>
+                <div class="cross-detail-param"><span class="cross-detail-name">Бренд</span><span class="cross-detail-value">Adidas</span></div>
+                <div class="cross-detail-param"><span class="cross-detail-name">Бренд</span><span class="cross-detail-value">Adidas</span></div>
+                <div class="cross-detail-param"><span class="cross-detail-name">Бренд</span><span class="cross-detail-value">Adidas</span></div>
+                <div class="cross-detail-param"><span class="cross-detail-name">Бренд</span><span class="cross-detail-value">Adidas</span></div>
+                <div class="cross-detail-param"><span class="cross-detail-name">Бренд</span><span class="cross-detail-value">Adidas</span></div>
+            </aricle>
+            <form class="add-to-cart-form" action="" method="get">
+                <button class="add-to-cart-btn">В корзину</button>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="footer-contacts">
@@ -210,5 +199,7 @@
             </div>
         </div>
     </footer>
+</body>
+</html>
 </body>
 </html>

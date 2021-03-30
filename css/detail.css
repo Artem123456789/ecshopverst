@@ -1,75 +1,56 @@
-#cross-descr{
+.cross-detail{
     display: flex;
-    height: 1200px;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.cross-descr-main-info{
+.cross-detail-main-info{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    width: 100%;
 }
 
-.cross-descr-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 250px;
+.cross-detail-img{
     width: 40%;
+    height: 100%;
 }
 
-.cross-descr-cart-btn{
-    font-size: 16px;
-    border: 3px solid black;
+.cross-detail-main-info-text{
     width: 30%;
-    height: 20%;
-}
-
-.cross-descr-parameters{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 300px;
+    align-self: flex-end;
 }
 
-.cross-descr-param-row{
+.cross-detail-params{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.cross-detail-param{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
 }
 
-.would-like-crosses{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
-}
-
-.would-like-crosses-list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.would-like-cross-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.would-like-cross-card-img{
-    width: 200px;
-    height: 172px;
-}
-
-.would-like-cross-card-name{
+.cross-detail-name{
     font-weight: bold;
 }
 
-.cross-descr-text{
-    text-align: right;
+.add-to-cart-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+.add-to-cart-btn{
+    border: 3px solid black;
+    padding: 10px;
 }
